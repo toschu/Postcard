@@ -95,7 +95,16 @@
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                                 <variation key="widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="23" y="72" width="361" height="130"/>
+                                    <rect key="frame" x="23" y="72" width="361" height="48"/>
+                                </variation>
+                            </label>
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="nameLabel" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="86G-Ua-xv1">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="23" y="158" width="361" height="21"/>
                                 </variation>
                             </label>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="AlbertEinsteinStamp.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="mAX-nF-S7h">
@@ -112,6 +121,7 @@
                                 <exclude reference="gJ3-Ed-fEI"/>
                                 <exclude reference="UXW-2x-Tsz"/>
                                 <exclude reference="wXX-5w-TF0"/>
+                                <exclude reference="86G-Ua-xv1"/>
                                 <exclude reference="mAX-nF-S7h"/>
                             </mask>
                         </variation>
@@ -121,6 +131,7 @@
                                 <include reference="gJ3-Ed-fEI"/>
                                 <include reference="UXW-2x-Tsz"/>
                                 <include reference="wXX-5w-TF0"/>
+                                <include reference="86G-Ua-xv1"/>
                                 <include reference="mAX-nF-S7h"/>
                             </mask>
                         </variation>
@@ -129,6 +140,7 @@
                         <outlet property="enterMessageTextfield" destination="gJ3-Ed-fEI" id="hQ2-dX-UFV"/>
                         <outlet property="enterNameTextfield" destination="kgX-ug-KWM" id="owf-Ju-zp2"/>
                         <outlet property="messageLabel" destination="wXX-5w-TF0" id="Ujb-pz-oJP"/>
+                        <outlet property="nameLabel" destination="86G-Ua-xv1" id="WAE-ED-S0Z"/>
                         <outlet property="sendMailButton" destination="UXW-2x-Tsz" id="1Be-aV-yXa"/>
                     </connections>
                 </viewController>
